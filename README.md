@@ -1,1 +1,2 @@
-My web Development project.
+Greetings, welcome to my Web Development project.
+To run it, download the "Flask Website" folder, then with python3 pip install Flask, SQLalchemy and SQLite, then run the main.py in the folder. After that head to the interal address mentioned in the command line, then you are in the website. Enjoy!
