@@ -13,9 +13,11 @@
 </form>
 <ul class="container" id="list">
   {% for note in user.notes %}
-    <li class="note-block" style="width: 25% ; background-color: yellow">
-      {{note.data}}
-    </li>
+    <div style="border-radius: 10px; width: 25%; background-color: yellow">
+      <span class="note-block">
+        {{note.data}}
+      </span>
+    </div>
     <button class="btn btn-primary" onclick="deleteNote({{ note.id }})">Delete</button>
     <button class="btn btn-primary" onclick="saveNote({{ note.id }})">Save</button>
   {% endfor %}
