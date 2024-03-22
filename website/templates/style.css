@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: black;
+}
+.note-block {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+#test {
+    background-color: red;
+}
